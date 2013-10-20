@@ -46,6 +46,7 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
+    eventmachine (1.0.3)
     execjs (2.0.2)
     hike (1.2.3)
     i18n (0.6.5)
@@ -124,6 +125,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
+  eventmachine (~> 1.0.3)
   jquery-rails
   mysql2
   pg

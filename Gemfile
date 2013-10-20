@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'twitter-bootstrap-rails', '~> 2.2.8'
+gem 'eventmachine', '~> 1.0.3'
 
 group :production do
   gem 'pg'
