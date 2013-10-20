@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  user_id: 1
+  do_on: 2013-10-20 21:02:37
+  status: MyString
+
+two:
+  name: MyString
+  description: MyText
+  user_id: 1
+  do_on: 2013-10-20 21:02:37
+  status: MyString
