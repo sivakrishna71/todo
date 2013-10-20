@@ -4,8 +4,8 @@ class CreateTasks < ActiveRecord::Migration
       t.string :name
       t.text :description
       t.integer :user_id
-      t.string :status, :default => "pending"
       t.datetime :do_on
+      t.string :status, :default => "pending"
 
       t.timestamps
     end

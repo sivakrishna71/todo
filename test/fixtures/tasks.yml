@@ -4,12 +4,12 @@ one:
   name: MyString
   description: MyText
   user_id: 1
+  do_on: 2013-10-20 21:02:37
   status: MyString
-  do_on: 2013-10-20 00:09:14
 
 two:
   name: MyString
   description: MyText
   user_id: 1
+  do_on: 2013-10-20 21:02:37
   status: MyString
-  do_on: 2013-10-20 00:09:14

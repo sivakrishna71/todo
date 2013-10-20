@@ -49,7 +49,9 @@
           <a class="brand" href="#">Todo</a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
+              <% if user_signed_in? %>
+                <li><%= link_to "Tasks", tasks_path  %></li>
+              <% end%>
               <li><%= link_to "Link2", "/path2"  %></li>
               <li><%= link_to "Link3", "/path3"  %></li>
             </ul>
